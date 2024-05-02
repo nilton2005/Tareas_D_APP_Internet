@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Agente</title>
+</head>
+<body>
+    <h2>Registro de Agente</h2>
+    <form method="post" action="ValidaRegistro.php">
+        <label for="username">ID Agente:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="departamento_ID">ID del Departamento:</label><br>
+        <input type="text" id="departamento_ID" name="departamento_ID"><br><br>
+        <label for="descripcion_mision">Descripción de la Misión:</label><br>
+        <input type="text" id="descripcion_mision" name="descripcion_mision"><br><br>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="numero_misiones">Número de Misiones:</label><br>
+        <input type="text" id="numero_misiones" name="numero_misiones"><br><br>
+        <input type="submit" value="Registrar">
+
+    </form>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        color: #333;
+    }
+
+    form {
+        max-width: 300px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+
+    input[type="text"],
+    input[type="password"],
+    input[type = "departamento_ID"],
+    input[type = "descripcion_mision"],
+    input[type = "nombre"],
+    input[type = "numero_misiones"]
+    input[type="submit"]{
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background: #555;
+    }
+    form {
+        max-width: 300px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transform: translateZ(25px);
+    }
+
+    body {
+        background-color: black;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        border: 2px solid red;
+        border-radius: 10px; 
+        box-shadow: 5px 5px 5px grey; 
+    }
+</style>
+
+</body>
+</html>
